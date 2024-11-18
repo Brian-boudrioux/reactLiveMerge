@@ -10,7 +10,7 @@ function App() {
 			<Navbar />
 			<Header />
 			<main>
-				<CardList />
+				<CardList cards={cards}/>
 			</main>
 			<Footer />
 		</>

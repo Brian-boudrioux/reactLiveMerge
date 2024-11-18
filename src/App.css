@@ -1,0 +1,58 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.makeagif.com/media/7-18-2016/sgyQlb.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  background-color: #14182191;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: #141821;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+main {
+  min-height: 550px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141821;
+}
